@@ -1,0 +1,6 @@
+apiVersion: enterprise.splunk.com/v1beta1
+kind: Standalone
+metadata:
+  name: nova-s1
+  finalizers:
+  - enterprise.splunk.com/delete-pvc

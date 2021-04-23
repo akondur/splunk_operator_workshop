@@ -1,0 +1,27 @@
+apiVersion: enterprise.splunk.com/v1beta1
+kind: ClusterMaster
+metadata:
+  name: nova-cm
+  finalizers:
+  - enterprise.splunk.com/delete-pvc
+---
+apiVersion: enterprise.splunk.com/v1beta1
+kind: IndexerCluster
+metadata:
+  name: nova-idc
+  finalizers:
+  - enterprise.splunk.com/delete-pvc
+spec:
+  clusterMasterRef:
+    name: nova-cm
+  replicas: 3
+---
+apiVersion: enterprise.splunk.com/v1beta1
+kind: SearchHeadCluster
+metadata:
+  name: nova-shc
+  finalizers:
+  - enterprise.splunk.com/delete-pvc
+spec:
+  clusterMasterRef:
+    name: nova-cm
