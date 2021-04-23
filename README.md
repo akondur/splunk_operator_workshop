@@ -1,1 +1,1 @@
-# splunk_operator_workshop
+The Splunk Operator for Kubernetes is introduced into the Splunk workshop workflow. Please refer `go/workshop` for more details. The yaml files and shell scripts under `config` are used in the workshop for deploying Splunk Enterprise using the operator.
