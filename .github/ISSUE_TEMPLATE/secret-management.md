@@ -18,15 +18,15 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Proposed changes(if any)**
+**Proposed changes(optional)**
 
-**Screenshots**
+**Screenshots(optional)**
 If applicable, add screenshots to help explain your problem.
 
 **System information**
 - K8s environment(version of K8s, kind of K8s cluster eg. eks, aks etc)
 
-**K8s collector [data](https://github.com/splunk/splunk-operator/blob/develop/docs/K8SCollectors.md)**
+**K8s collector [data](https://github.com/splunk/splunk-operator/blob/develop/docs/K8SCollectors.md) (optional)**
 
-**Additional context**
+**Additional context(optional)**
 Add any other context about the problem here.
