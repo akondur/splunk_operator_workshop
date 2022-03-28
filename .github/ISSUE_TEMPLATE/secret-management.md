@@ -1,7 +1,7 @@
 ---
 name: Secret Management
-about: Secret Management related issues
-title: Secret Management
+about: File any issues related to secret management under this github issue template
+title: 'Secret Management:'
 labels: ''
 assignees: akondur
 
@@ -12,21 +12,21 @@ A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. Topology/Deployment setup on the K8s cluster
+2. Steps to reproduce the issue
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
+**Proposed changes(if any)**
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**System information**
+- K8s environment(version of K8s, kind of K8s cluster eg. eks, aks etc)
+
+**K8s collector data(if k8s collectors from the operator repo used)**
 
 **Additional context**
 Add any other context about the problem here.
