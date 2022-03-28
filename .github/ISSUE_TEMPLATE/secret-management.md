@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **System information**
 - K8s environment(version of K8s, kind of K8s cluster eg. eks, aks etc)
 
-**K8s collector data(if k8s collectors from the operator repo used)**
+**K8s collector [data](https://github.com/splunk/splunk-operator/blob/develop/docs/K8SCollectors.md)**
 
 **Additional context**
 Add any other context about the problem here.
