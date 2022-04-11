@@ -1,7 +1,7 @@
 name: App Framework
 description: File any issues related to app framework under this github issue template
 title: "App Framework:"
-labels: ""
+labels: "app"
 assignees:
   - akondur
 
