@@ -1,5 +1,5 @@
 ---
-name: App Framework
+name: App Framework Test
 about: File any issues related to app framework under this github issue template
 title: 'App Framework:'
 labels: ''
