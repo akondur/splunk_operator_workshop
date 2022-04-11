@@ -1,13 +1,13 @@
 name: App Framework
 description: File any issues related to app framework under this github issue template
 title: "App Framework:"
-labels: ''
+labels: ""
 assignees:
   - akondur
 
 body:
   - type: dropdown
-    id: Type of issue
+    id: type_of_issue
     attributes:
         label: Is it a bug/enhancement/feature-request
         options:
