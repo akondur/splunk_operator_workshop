@@ -1,7 +1,7 @@
 name: App Framework
 description: File any requests related to app framework under this template
-title: "App Framework:"
-labels: "app"
+title: "App Framework: "
+labels: "app framework"
 assignees:
   - akondur
 
@@ -43,6 +43,6 @@ body:
         - Please provide data collected from the [K8s collectors](https://github.com/splunk/splunk-operator/blob/develop/docs/K8SCollectors.md), if any.
         
         **Additional context(optional)**
-        Add any other context about the problem here.
+        - Add any other context about the problem here.
     validations:
         required: true
