@@ -1,5 +1,5 @@
 name: Generic
-about: File generic requests under this template(use only if the issue does not match any of the other templates)
+description: File generic requests under this template(use only if the issue does not match any of the other templates)
 title: "Splunk Operator: "
 assignees:
   - akondur
