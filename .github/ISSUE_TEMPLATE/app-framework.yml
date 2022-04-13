@@ -4,6 +4,7 @@ title: "App Framework: "
 labels: "app framework"
 assignees:
   - akondur
+  - smohan
 
 body:
   - type: dropdown
