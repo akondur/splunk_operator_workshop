@@ -2,7 +2,7 @@ name: App Framework
 description: File any requests related to app framework under this template
 title: "App Framework: "
 labels:
-  - app framework
+  - "app framework"
 assignees:
   - akondur
   - smohan-splunk
