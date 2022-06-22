@@ -5,7 +5,7 @@ metadata:
   finalizers:
   - enterprise.splunk.com/delete-pvc
 ---
-apiVersion: enterprise.splunk.com/v1beta1
+apiVersion: enterprise.splunk.com/v3
 kind: IndexerCluster
 metadata:
   name: nova-idc
@@ -16,7 +16,7 @@ spec:
     name: nova-cm
   replicas: 3
 ---
-apiVersion: enterprise.splunk.com/v1beta1
+apiVersion: enterprise.splunk.com/v3
 kind: SearchHeadCluster
 metadata:
   name: nova-shc
