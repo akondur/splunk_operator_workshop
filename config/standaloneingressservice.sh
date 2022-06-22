@@ -34,30 +34,9 @@ status:
     - ip: ${IP_ADDR}
 EOF
 
-cat <<EOF | $kubectl apply -f -
-apiVersion: v1
-kind: Service
-metadata:
-  name: nova-mc
-spec:
-  selector:
-    app.kubernetes.io/instance: splunk-default-monitoring-console
-  ports:
-    - protocol: TCP
-      port: 8001
-      targetPort: 8000
-      name: cm
-  type: LoadBalancer
-status:
-  loadBalancer:
-    ingress:
-    - ip: ${IP_ADDR}
-EOF
-
 echo "==========endpoints==========="
 
 echo "Standalone UI at: http://${IP_ADDR}:8000"
-echo "Monitoring Console at: http://${IP_ADDR}:8001"
 echo "HEC endpoint at: https://${IP_ADDR}:8088"
 echo "S2S at: ${IP_ADDR}:9997"
 
