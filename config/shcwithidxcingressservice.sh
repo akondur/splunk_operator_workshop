@@ -57,7 +57,7 @@ metadata:
   name: nova-cm
 spec:
   selector:
-    app.kubernetes.io/instance: splunk-nova-cm-cluster-master
+    app.kubernetes.io/instance: splunk-nova-cm-cluster-manager
   ports:
     - protocol: TCP
       port: 8001
@@ -75,7 +75,7 @@ echo "==========endpoints==========="
 echo "Search Head UI at: http://${IP_ADDR}:8000"
 echo "HEC endpoint at: https://${IP_ADDR}:8088"
 echo "S2S at: ${IP_ADDR}:9997"
-echo "Cluster Master at: http://${IP_ADDR}:8001"
+echo "Cluster manager at: http://${IP_ADDR}:8001"
 
 echo ""
 echo "Happy Splunking!!!"
